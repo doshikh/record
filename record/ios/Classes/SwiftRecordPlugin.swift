@@ -69,7 +69,7 @@ public class SwiftRecordPlugin: NSObject, FlutterPlugin, AVAudioRecorderDelegate
   }
     
   public func applicationDidEnterBackground(_ application: UIApplication) {
-    stopRecording()
+ //   stopRecording()
   }
 
   fileprivate func hasPermission(_ result: @escaping FlutterResult) {
